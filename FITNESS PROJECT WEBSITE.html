@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Montserrat:wght@600;700;800;900&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"error":"#ffb4ab","surface-bright":"#363942","surface-container-lowest":"#0b0e16","tertiary-fixed-dim":"#00dbe9","on-secondary":"#5f1500","surface-container-highest":"#32353d","on-primary-fixed-variant":"#3c4d00","on-error-container":"#ffdad6","secondary-container":"#d73b00","error-container":"#93000a","outline-variant":"#444933","tertiary-fixed":"#7df4ff","on-secondary-fixed-variant":"#862200","surface":"#10131b","primary-fixed-dim":"#abd600","primary":"#ffffff","secondary-fixed-dim":"#ffb5a0","on-tertiary-fixed-variant":"#004f54","secondary":"#ffb5a0","secondary-fixed":"#ffdbd1","surface-tint":"#abd600","on-tertiary-container":"#006f77","on-tertiary-fixed":"#002022","on-surface-variant":"#c4c9ac","outline":"#8e9379","on-error":"#690005","on-primary":"#283500","tertiary":"#ffffff","primary-container":"#c3f400","on-secondary-fixed":"#3b0900","on-tertiary":"#00363a","tertiary-container":"#7df4ff","primary-fixed":"#c3f400","surface-container-low":"#181b24","on-background":"#e0e2ed","on-primary-fixed":"#161e00","surface-container-high":"#272a32","surface-container":"#1c1f28","inverse-primary":"#506600","on-surface":"#e0e2ed","on-secondary-container":"#fffbff","background":"#10131b","inverse-surface":"#e0e2ed","surface-dim":"#10131b","inverse-on-surface":"#2d3039","on-primary-container":"#556d00","surface-variant":"#32353d"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"space-xs":"0.25rem","margin-mobile":"1rem","margin":"2rem","space-sm":"0.5rem","gutter-mobile":"0.75rem","space-md":"1rem","gutter":"1.5rem","space-xl":"2.5rem","space-lg":"1.5rem"},fontFamily:{"display":["Montserrat"],"display-mobile":["Montserrat"],"body-lg":["Inter"],"label-data":["Space Grotesk"],"headline-lg":["Montserrat"],"headline-lg-mobile":["Montserrat"],"headline-md":["Montserrat"],"body-md":["Inter"],"headline-sm":["Montserrat"],"label-sm":["Space Grotesk"],"body-sm":["Inter"],"title-md":["Inter"],"title-lg":["Montserrat"]},fontSize:{"display":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"900"}],"display-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"900"}],"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"400"}],"label-data":["15px",{"lineHeight":"20px","letterSpacing":"0.04em","fontWeight":"700"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-lg-mobile":["30px",{"lineHeight":"36px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-md":["28px",{"lineHeight":"34px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"400"}],"title-md":["16px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"600"}],"title-lg":["18px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"600"}]}}}}</script></head><body class="bg-background font-body-md text-on-background min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm"><img alt="Brand logo. - Primary color: #ccff00
+- Font: montserrat
+- Mode: dark
+- Roundness: rounded-sm
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcdU1A8wpPQCLxcZQYj3QU2gLH-82Ev68R5jIqZPAnyz3BQMUSg82_ZbDb_8366GidunLXIyF8-_UQnLWYdy0l-1H7dwyhg66wQotDUiNq3Q5-HDXXy7okOI48q7Xx9LLRAij4bITVwPPZ9coYbNkpwbV7HOelzndpoFrKdIQuaPYn1dnSEypZ-BK9BBMCjbcAdFOUb9-kcZvHUlirZp3RNUzQpS2iyfSHJmLtNjFM3UHh_vPOqTlo"/><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-primary">FITZONE</span></div><nav class="hidden xl:flex items-center gap-gutter" data-active-classes="text-primary-container font-headline-sm text-body-md"><a aria-current="page" class="transition-colors text-primary-container font-headline-sm text-body-md" data-path="home" href="#">Home</a><a class="font-title-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="about-us" href="#">About Us</a><a class="font-title-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="workout-programs" href="#">Workout Programs</a><a class="font-title-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="trainers" href="#">Trainers</a><a class="font-title-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="bmi-calculator" href="#">BMI Calculator</a><a class="font-title-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="workout-tracker" href="#">Workout Tracker</a><a class="font-title-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="membership-plans" href="#">Membership Plans</a><a class="font-title-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center bg-primary-container text-on-primary-container font-title-lg text-title-md px-space-lg py-space-sm rounded-lg hover:shadow-[0_0_16px_rgba(204,255,0,0.35)] transition-all uppercase" data-path="join-now" href="#">Join Now</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Interactive Sub-Navbar / Quick Switcher floating bar -->
+<div class="sticky top-20 z-40 w-full bg-surface-container-lowest/90 backdrop-blur-md shadow-md py-space-xs px-margin-mobile md:px-margin">
+<div class="max-w-[1440px] mx-auto flex items-center justify-between gap-space-sm overflow-x-auto no-scrollbar py-1">
+<div class="flex items-center gap-space-xs text-primary-container shrink-0">
+<span class="material-symbols-outlined text-sm">terminal</span>
+<span class="font-label-sm uppercase tracking-wider text-xs hidden md:inline">SYSTEM HUD:</span>
+</div>
+<div class="flex items-center gap-space-xs shrink-0" id="quick-switcher-container">
+<button class="quick-pill active-pill px-3 py-1 rounded text-xs font-label-data uppercase tracking-wider transition-all duration-200 bg-primary-container text-on-primary-container shadow-[0_0_12px_rgba(195,244,0,0.35)]" data-target="page-home" type="button">
+          Home
+        </button>
+<button class="quick-pill px-3 py-1 rounded text-xs font-label-data uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright" data-target="page-about" type="button">
+          About Us
+        </button>
+<button class="quick-pill px-3 py-1 rounded text-xs font-label-data uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright" data-target="page-programs" type="button">
+          Programs
+        </button>
+<button class="quick-pill px-3 py-1 rounded text-xs font-label-data uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright" data-target="page-trainers" type="button">
+          Coaches
+        </button>
+<button class="quick-pill px-3 py-1 rounded text-xs font-label-data uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright" data-target="page-bmi" type="button">
+          Biometrics
+        </button>
+<button class="quick-pill px-3 py-1 rounded text-xs font-label-data uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright" data-target="page-tracker" type="button">
+          Tracker
+        </button>
+<button class="quick-pill px-3 py-1 rounded text-xs font-label-data uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright" data-target="page-membership" type="button">
+          Memberships
+        </button>
+<button class="quick-pill px-3 py-1 rounded text-xs font-label-data uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright" data-target="page-contact" type="button">
+          Facility
+        </button>
+</div>
+<div class="hidden lg:flex items-center gap-space-xs text-xs font-label-sm text-on-surface-variant shrink-0">
+<span class="inline-block w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span>MAIN GRID ONLINE</span>
+</div>
+</div>
+</div>
+<!-- ========================================== -->
+<!-- 1. VIEW: HOME -->
+<!-- ========================================== -->
+<section class="page-view flex flex-col w-full transition-opacity duration-300" id="page-home">
+<!-- Hero Banner with high-octane background -->
+<div class="relative w-full overflow-hidden bg-surface-container-lowest py-space-xl lg:py-28 px-margin-mobile md:px-margin">
+<div class="absolute inset-0 bg-cover bg-center opacity-30 mix-blend-luminosity scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida/AEtjO1XHhl0Bvz35NvQ2t1mHqxI22owPLmr_GEgjIHNtL3AYfcdc4w1eeTk_AzR2PPwK-RHR-SscbRieuSm-RJ_oq5-DjZv316sl1Hf1nHu00-nDF81pc63dhUbRtCBrxXGvekmD5fxtQTmt_mkDG0aWGha-ZbQ6FrpFcKXyKHU5s8iJM3bRcX8YK3R47PkTf9ajCtlWN_a8yK1yxO11rbDkTOD5QOe1A2yTUzK0vKwCsyK0rNCLZGAlq6nZb_U');"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-lowest via-surface-container-lowest/80 to-transparent"></div>
+<div class="relative max-w-[1440px] mx-auto flex flex-col gap-space-md z-10">
+<div class="inline-flex items-center gap-2 self-start px-space-sm py-1 rounded bg-surface-container-high/80 text-primary-container font-label-sm uppercase tracking-wider shadow-sm">
+<span class="material-symbols-outlined text-sm">bolt</span>
+<span>Next-Gen Athletic Performance Architecture</span>
+</div>
+<h1 class="font-display text-display uppercase tracking-tight text-primary max-w-4xl leading-tight">
+          BUILD YOUR <span class="text-primary-container underline decoration-primary-container/30 decoration-4 underline-offset-8">STRONGEST</span> SELF
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          Engineered for relentless athletes, powerlifters, and high-cadence humans. Combine biometric telemetry, world-class mechanical programming, and brutalist training halls.
+        </p>
+<div class="flex flex-wrap items-center gap-space-md mt-space-sm">
+<button class="btn-navigate bg-primary-container text-on-primary-container font-title-lg text-title-md px-space-xl py-space-md rounded-lg shadow-lg hover:shadow-[0_0_20px_rgba(195,244,0,0.4)] transition-all uppercase flex items-center gap-2" data-target="page-membership" type="button">
+<span>Start Your Journey</span>
+<span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
+<button class="btn-navigate bg-surface-container-high text-primary font-title-lg text-title-md px-space-lg py-space-md rounded-lg hover:bg-surface-bright transition-all uppercase flex items-center gap-2" data-target="page-programs" type="button">
+<span>View Workouts</span>
+<span class="material-symbols-outlined text-lg">fitness_center</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Live Telemetry KPI Metrics Bar -->
+<div class="w-full bg-surface-container-high py-space-md px-margin-mobile md:px-margin shadow-sm">
+<div class="max-w-[1440px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-gutter">
+<div class="flex flex-col">
+<div class="font-display text-headline-lg text-primary-container">12,500+</div>
+<div class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider">Active Athletes</div>
+</div>
+<div class="flex flex-col">
+<div class="font-display text-headline-lg text-primary">48+</div>
+<div class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider">Elite Mentors</div>
+</div>
+<div class="flex flex-col">
+<div class="font-display text-headline-lg text-secondary-container">150+</div>
+<div class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider">Weekly Protocols</div>
+</div>
+<div class="flex flex-col">
+<div class="font-display text-headline-lg text-tertiary-fixed-dim">12+ YRS</div>
+<div class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider">Dominance Metric</div>
+</div>
+</div>
+</div>
+<!-- Triple Pillar Architectural Bento -->
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-xl flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase text-primary-container tracking-wider">SYSTEM ECOSYSTEM</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-primary tracking-tight">PRECISION ARCHITECTURE</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          A seamless triangular synthesis of science-based progression routines, certified biomechanics mentors, and continuous physiological feedback loops.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<div class="bg-surface-container rounded-lg p-space-lg flex flex-col justify-between gap-space-lg shadow-sm hover:shadow-[0_0_16px_rgba(195,244,0,0.15)] transition-all">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded bg-surface-container-high flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-2xl">sports_gymnastics</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Intensive Programs</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              From metabolic conditioning to raw barbell mastery. Every session features programmed rep trajectories, velocity tracking, and fatigue adaptation.
+            </p>
+</div>
+<button class="btn-navigate self-start font-label-data text-xs uppercase tracking-wider text-primary-container hover:text-primary transition-colors flex items-center gap-1" data-target="page-programs" type="button">
+            EXPLORE REGIMENS <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container rounded-lg p-space-lg flex flex-col justify-between gap-space-lg shadow-sm hover:shadow-[0_0_16px_rgba(195,244,0,0.15)] transition-all">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl">exercise</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Master Coaches</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              CSCS and Olympic certified performance directors monitoring biomechanical leverage, bar velocity, and neural readiness in real time.
+            </p>
+</div>
+<button class="btn-navigate self-start font-label-data text-xs uppercase tracking-wider text-secondary hover:text-primary transition-colors flex items-center gap-1" data-target="page-trainers" type="button">
+            VIEW ROSTER <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container rounded-lg p-space-lg flex flex-col justify-between gap-space-lg shadow-sm hover:shadow-[0_0_16px_rgba(195,244,0,0.15)] transition-all">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded bg-surface-container-high flex items-center justify-center text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-2xl">vital_signs</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Biometric Telemetry</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Track heart rate exertion zones, calculate body mass density parameters, and synchronize progressive overload thresholds through our data studio.
+            </p>
+</div>
+<button class="btn-navigate self-start font-label-data text-xs uppercase tracking-wider text-tertiary-fixed-dim hover:text-primary transition-colors flex items-center gap-1" data-target="page-bmi" type="button">
+            LAUNCH BIOMETRICS <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Member Reviews / The Crucible -->
+<div class="w-full bg-surface-container-low py-space-xl px-margin-mobile md:px-margin">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-lg">
+<div>
+<span class="font-label-sm text-label-sm uppercase text-primary-container tracking-wider">TESTED AT CAPACITY</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-primary tracking-tight">THE PERFORMANCE CRUCIBLE</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="bg-surface-container p-space-lg rounded-lg flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-1 text-primary-container">
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+              "The brutalist layout and data-first coaching altered my deadlift from 180kg to 245kg in 7 months. No fluff, pure kinematic rigor."
+            </p>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-surface-bright flex items-center justify-center font-headline-sm text-sm text-primary">MR</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">Marcus Ramos</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Competitive Powerlifter</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container p-space-lg rounded-lg flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-1 text-primary-container">
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+              "Between the recovery cryo-chambers and Elena's metabolic conditioning protocols, my VO2 max jumped 18%. Outstanding facilities."
+            </p>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-surface-bright flex items-center justify-center font-headline-sm text-sm text-primary">SL</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">Sarah Lindqvist</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Triathlon Competitor</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container p-space-lg rounded-lg flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center gap-1 text-primary-container">
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+              "The workout logging system integrated with trainer real-time feedback completely keeps me on pace during grueling training weeks."
+            </p>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-surface-bright flex items-center justify-center font-headline-sm text-sm text-primary">DK</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">David Kalu</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Functional CrossFit Athlete</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Sanctuary Day Pass Callout -->
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-xl w-full">
+<div class="w-full bg-surface-container rounded-lg p-space-xl flex flex-col lg:flex-row items-center justify-between gap-space-lg shadow-md">
+<div class="flex flex-col gap-space-xs max-w-xl">
+<span class="font-label-sm text-label-sm uppercase text-primary-container tracking-wider">IMMERSIVE EVALUATION</span>
+<h3 class="font-headline-lg text-headline-lg uppercase text-primary tracking-tight">EXPERIENCE THE IRON SANCTUARY FIRSTHAND</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Request a comprehensive 1-Day VIP Pass: unlimited access to Olympic platforms, kinematic cable rigs, and our bio-restoration thermal suites.
+          </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-md">
+<button class="btn-navigate bg-primary-container text-on-primary-container font-title-lg text-title-md px-space-xl py-space-md rounded-lg shadow uppercase hover:opacity-95 transition-all" data-target="page-contact" type="button">
+            Claim Free Day Pass
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 2. VIEW: ABOUT US -->
+<!-- ========================================== -->
+<section class="page-view flex flex-col w-full hidden transition-opacity duration-300" id="page-about">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-lg flex flex-col gap-space-xl">
+<!-- Section Title & Intro -->
+<div class="flex flex-col gap-space-sm max-w-3xl">
+<span class="font-label-sm text-label-sm uppercase text-primary-container tracking-wider">FOUNDED 2012 / LOS ANGELES</span>
+<h1 class="font-headline-lg text-headline-lg uppercase text-primary tracking-tight">
+          FORGING STRENGTH, DISCIPLINE &amp; RESILIENCE FOR OVER A DECADE
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          FitZone is not an ordinary commercial gym. It is an engineering complex dedicated to the absolute optimization of the human kinetic chain. We strip out distractions, hype, and gimmicks in favor of cold, measured performance metrics.
+        </p>
+</div>
+<!-- Feature Split with Battle Ropes Image -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-7 relative rounded-lg overflow-hidden shadow-md">
+<div class="h-96 w-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida/AEtjO1VKVEnHg8DT4Enm8aNTAi6PnNLIp1gPs-EGb8Yg-xRdWnn7mmERjm8HslD1q6ecUZUXlin0r8d2-kgz6WeRmt7Lg2PFzJ4x28OMXaQrPMWh0onsRqiQfz60wzy-yo7U_ZoEumhNLJTXMUPqfm4TL1jLEXYpkshHHpmlMbJVL7LO32s8cDCZTcQUVDk57XRHuWrsRd8qGJOWnw22oKQVJcqXCSQwvicf6KpGAVbnPeE1l1C_qQOV5hCaJA');"></div>
+<div class="absolute bottom-space-md left-space-md bg-surface/90 backdrop-blur-md px-space-md py-space-sm rounded shadow flex items-center gap-space-sm">
+<span class="font-headline-md text-headline-md text-primary-container font-display">99.4%</span>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider leading-tight">Member<br/>Satisfaction Audit</span>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="bg-surface-container rounded-lg p-space-md flex flex-col gap-space-xs shadow-sm">
+<span class="font-label-data text-xs text-primary-container uppercase">MISSION CODE: TRANSCEND</span>
+<h3 class="font-headline-sm text-headline-sm text-primary uppercase">Systemic Athletic Transcendence</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              To deliver uncompromising training environments that systematically advance physical output through science, telemetry, and unyielding work ethic.
+            </p>
+</div>
+<div class="bg-surface-container rounded-lg p-space-md flex flex-col gap-space-xs shadow-sm">
+<span class="font-label-data text-xs text-secondary uppercase">VISION CODE: BENCHMARK</span>
+<h3 class="font-headline-sm text-headline-sm text-primary uppercase">The Global Benchmark in High Exertion</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Every facility serves as a testing crucible, bridging elite strength coaching with real-time biometric software to revolutionize daily conditioning.
+            </p>
+</div>
+</div>
+</div>
+<!-- 4 Pillars -->
+<div class="flex flex-col gap-space-md">
+<h2 class="font-headline-md text-headline-md uppercase text-primary tracking-tight">WHY ATHLETES CHOOSE FITZONE</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<div class="bg-surface-container rounded p-space-md flex flex-col gap-space-sm shadow-sm">
+<span class="material-symbols-outlined text-primary-container text-3xl">precision_manufacturing</span>
+<h4 class="font-title-lg text-title-lg text-primary uppercase">Precision Biomechanics</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Custom calibrated Eleiko barbells, calibrated calibrated plates, and customized power cages.</p>
+</div>
+<div class="bg-surface-container rounded p-space-md flex flex-col gap-space-sm shadow-sm">
+<span class="material-symbols-outlined text-primary-container text-3xl">schedule</span>
+<h4 class="font-title-lg text-title-lg text-primary uppercase">24/7 VIP Access</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Biometric keycard telemetry allows round-the-clock entry for night-shift athletes and early risers.</p>
+</div>
+<div class="bg-surface-container rounded p-space-md flex flex-col gap-space-sm shadow-sm">
+<span class="material-symbols-outlined text-primary-container text-3xl">military_tech</span>
+<h4 class="font-title-lg text-title-lg text-primary uppercase">Master Coaches</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">100% CSCS certified or national podium medalists presiding over all scheduled strength clinics.</p>
+</div>
+<div class="bg-surface-container rounded p-space-md flex flex-col gap-space-sm shadow-sm">
+<span class="material-symbols-outlined text-primary-container text-3xl">ac_unit</span>
+<h4 class="font-title-lg text-title-lg text-primary uppercase">Cryo &amp; Bio-Restoration</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Thermal contrast tubs, infra-red sauna chambers, and pneumatic compression recovery boots.</p>
+</div>
+</div>
+</div>
+<!-- Zone Architecture Breakdown -->
+<div class="flex flex-col gap-space-md bg-surface-container-high rounded-lg p-space-lg shadow-sm">
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">FACILITY SECTORS &amp; ZONING</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<div class="flex flex-col gap-1">
+<span class="font-label-data text-xs text-primary-container">ZONE 01</span>
+<span class="font-title-md text-title-md text-primary">Iron Crucible</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">16 Olympic deadlift platforms, monolifts, and calibrated iron racks.</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-data text-xs text-secondary">ZONE 02</span>
+<span class="font-title-md text-title-md text-primary">Kinematic Cardio</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Woodway curved treadmills, Concept2 SkiErgs, and RowErgs.</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-data text-xs text-tertiary-fixed-dim">ZONE 03</span>
+<span class="font-title-md text-title-md text-primary">Combat &amp; Turf</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">50-meter indoor prowler sprint lanes, heavy bags, and kettlebell arrays.</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-data text-xs text-primary">ZONE 04</span>
+<span class="font-title-md text-title-md text-primary">Bio-Restoration</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sub-zero cryo-chambers, contrast plunge pools, and mobility tables.</span>
+</div>
+</div>
+</div>
+<!-- Founder Quote Card -->
+<div class="bg-surface-container rounded-lg p-space-lg flex flex-col md:flex-row items-center gap-space-md shadow-sm">
+<div class="w-16 h-16 rounded-full bg-surface-bright flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary-container text-3xl">format_quote</span>
+</div>
+<div class="flex flex-col gap-1">
+<blockquote class="font-body-lg text-body-lg text-on-surface italic">
+            "We didn't build FitZone for casual strolls. We built an uncompromising cathedral of strength where excuses are incinerated and physical greatness is systematically extracted."
+          </blockquote>
+<span class="font-label-data text-xs text-primary-container uppercase tracking-wider">MARCUS VANCE — HEAD OF SYSTEM ARCHITECTURE &amp; FOUNDER</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 3. VIEW: WORKOUT PROGRAMS -->
+<!-- ========================================== -->
+<section class="page-view flex flex-col w-full hidden transition-opacity duration-300" id="page-programs">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-lg flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-label-sm text-label-sm uppercase text-primary-container tracking-wider">MASTER CURRICULUM</span>
+<h1 class="font-headline-lg text-headline-lg uppercase text-primary tracking-tight">TRAINING PROTOCOLS &amp; REGIMENS</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Each cycle features periodized progressions, autoregulated RPE scales, and target metabolic outputs. Filter protocols below to pinpoint your athletic focus.
+          </p>
+</div>
+<!-- Program Filters -->
+<div class="flex flex-wrap items-center gap-space-xs" id="program-filter-buttons">
+<button class="prog-filter-btn px-3 py-1.5 rounded text-xs font-label-data uppercase tracking-wider bg-primary-container text-on-primary-container transition-all" data-filter="all" type="button">All (6)</button>
+<button class="prog-filter-btn px-3 py-1.5 rounded text-xs font-label-data uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-primary transition-all" data-filter="strength" type="button">Strength</button>
+<button class="prog-filter-btn px-3 py-1.5 rounded text-xs font-label-data uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-primary transition-all" data-filter="hypertrophy" type="button">Hypertrophy</button>
+<button class="prog-filter-btn px-3 py-1.5 rounded text-xs font-label-data uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-primary transition-all" data-filter="cardio" type="button">Cardio</button>
+<button class="prog-filter-btn px-3 py-1.5 rounded text-xs font-label-data uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-primary transition-all" data-filter="hiit" type="button">HIIT</button>
+</div>
+</div>
+<!-- 6 Full Program Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="programs-grid">
+<!-- 1: Cardio Core -->
+<div class="program-card bg-surface-container rounded-lg p-space-md flex flex-col justify-between gap-space-md shadow-sm hover:shadow-[0_0_16px_rgba(195,244,0,0.2)] transition-all" data-category="cardio">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-tertiary-fixed-dim font-label-sm uppercase">Cardio / Core</span>
+<span class="text-xs font-label-data text-on-surface-variant">BEGINNER - INTERMEDIATE</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Cardio &amp; Core Primer</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Low-impact aerobic base building combined with isometric abdominal stability and posterior chain engagement.
+            </p>
+<div class="grid grid-cols-3 gap-space-xs bg-surface-container-high p-space-xs rounded text-center">
+<div>
+<div class="font-label-data text-xs text-primary">45 MIN</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Time</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-primary-container">350 KCAL</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Est. Burn</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-primary">3X / WK</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Freq</div>
+</div>
+</div>
+</div>
+<button class="btn-navigate w-full py-2 bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-primary font-title-md text-xs uppercase tracking-wider rounded transition-all" data-target="page-tracker" type="button">
+            Enroll &amp; Track
+          </button>
+</div>
+<!-- 2: HIIT Inferno -->
+<div class="program-card bg-surface-container rounded-lg p-space-md flex flex-col justify-between gap-space-md shadow-sm hover:shadow-[0_0_16px_rgba(215,59,0,0.25)] transition-all" data-category="hiit">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-secondary-container font-label-sm uppercase">Metabolic Strain</span>
+<span class="text-xs font-label-data text-secondary">ADVANCED</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Metabolic HIIT Inferno</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Tabata style assault intervals, heavy sled pushes, battle ropes, and burpee box jump ladders designed for maximum EPOC.
+            </p>
+<div class="grid grid-cols-3 gap-space-xs bg-surface-container-high p-space-xs rounded text-center">
+<div>
+<div class="font-label-data text-xs text-primary">50 MIN</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Time</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-secondary">650 KCAL</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Est. Burn</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-primary">4X / WK</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Freq</div>
+</div>
+</div>
+</div>
+<button class="btn-navigate w-full py-2 bg-surface-container-high hover:bg-secondary-container hover:text-primary text-primary font-title-md text-xs uppercase tracking-wider rounded transition-all" data-target="page-tracker" type="button">
+            Enroll &amp; Track
+          </button>
+</div>
+<!-- 3: Hypertrophy Blueprint -->
+<div class="program-card bg-surface-container rounded-lg p-space-md flex flex-col justify-between gap-space-md shadow-sm hover:shadow-[0_0_16px_rgba(195,244,0,0.2)] transition-all" data-category="hypertrophy">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-primary-container font-label-sm uppercase">Hypertrophy</span>
+<span class="text-xs font-label-data text-on-surface-variant">INTERMEDIATE</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Hypertrophy Blueprint</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Mechanical tension optimization across strict 8–12 rep windows. Emphasizes lengthened partials, cable isolation, and dumbbell flyes.
+            </p>
+<div class="grid grid-cols-3 gap-space-xs bg-surface-container-high p-space-xs rounded text-center">
+<div>
+<div class="font-label-data text-xs text-primary">60 MIN</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Time</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-primary-container">500 KCAL</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Est. Burn</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-primary">5X / WK</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Freq</div>
+</div>
+</div>
+</div>
+<button class="btn-navigate w-full py-2 bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-primary font-title-md text-xs uppercase tracking-wider rounded transition-all" data-target="page-tracker" type="button">
+            Enroll &amp; Track
+          </button>
+</div>
+<!-- 4: Barbell Mastery -->
+<div class="program-card bg-surface-container rounded-lg p-space-md flex flex-col justify-between gap-space-md shadow-sm hover:shadow-[0_0_16px_rgba(195,244,0,0.2)] transition-all" data-category="strength">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-primary-container font-label-sm uppercase">Powerlifting</span>
+<span class="text-xs font-label-data text-primary-container">PRO / ELITE</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Barbell Mastery</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Low-bar squatting, paused bench press, and sumo/conventional deadlift periodization utilizing Prilepin's intensity tables.
+            </p>
+<div class="grid grid-cols-3 gap-space-xs bg-surface-container-high p-space-xs rounded text-center">
+<div>
+<div class="font-label-data text-xs text-primary">75 MIN</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Time</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-primary-container">450 KCAL</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Est. Burn</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-primary">4X / WK</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Freq</div>
+</div>
+</div>
+</div>
+<button class="btn-navigate w-full py-2 bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-primary font-title-md text-xs uppercase tracking-wider rounded transition-all" data-target="page-tracker" type="button">
+            Enroll &amp; Track
+          </button>
+</div>
+<!-- 5: Aerobic Engine -->
+<div class="program-card bg-surface-container rounded-lg p-space-md flex flex-col justify-between gap-space-md shadow-sm hover:shadow-[0_0_16px_rgba(0,219,233,0.2)] transition-all" data-category="cardio">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-tertiary-fixed-dim font-label-sm uppercase">Endurance Engine</span>
+<span class="text-xs font-label-data text-on-surface-variant">ALL TIERS</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Aerobic Engine</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Zone 2 steady-state cardiovascular conditioning designed to expand mitochondrial density and lactate clearance capacity.
+            </p>
+<div class="grid grid-cols-3 gap-space-xs bg-surface-container-high p-space-xs rounded text-center">
+<div>
+<div class="font-label-data text-xs text-primary">40 MIN</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Time</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-tertiary-fixed-dim">550 KCAL</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Est. Burn</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-primary">3X / WK</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Freq</div>
+</div>
+</div>
+</div>
+<button class="btn-navigate w-full py-2 bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-primary font-title-md text-xs uppercase tracking-wider rounded transition-all" data-target="page-tracker" type="button">
+            Enroll &amp; Track
+          </button>
+</div>
+<!-- 6: Athletic Fusion -->
+<div class="program-card bg-surface-container rounded-lg p-space-md flex flex-col justify-between gap-space-md shadow-sm hover:shadow-[0_0_16px_rgba(195,244,0,0.2)] transition-all" data-category="hiit">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-primary-container font-label-sm uppercase">Hybrid Athlete</span>
+<span class="text-xs font-label-data text-on-surface-variant">INTERMEDIATE</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Athletic Fusion</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Kettlebell snatches, unilateral lunges, plyometric jumps, and core rotation arrays for hybrid game readiness.
+            </p>
+<div class="grid grid-cols-3 gap-space-xs bg-surface-container-high p-space-xs rounded text-center">
+<div>
+<div class="font-label-data text-xs text-primary">55 MIN</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Time</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-primary-container">600 KCAL</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Est. Burn</div>
+</div>
+<div>
+<div class="font-label-data text-xs text-primary">4X / WK</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Freq</div>
+</div>
+</div>
+</div>
+<button class="btn-navigate w-full py-2 bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-primary font-title-md text-xs uppercase tracking-wider rounded transition-all" data-target="page-tracker" type="button">
+            Enroll &amp; Track
+          </button>
+</div>
+</div>
+<!-- Comparison Matrix Table -->
+<div class="bg-surface-container rounded-lg p-space-lg flex flex-col gap-space-md shadow-sm overflow-x-auto">
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">PROGRAM CNS FATIGUE &amp; SYSTEMIC DEMAND</h3>
+<table class="w-full text-left font-body-sm text-body-sm text-on-surface-variant border-collapse min-w-[600px]">
+<thead>
+<tr class="bg-surface-container-high text-primary font-label-data uppercase text-xs">
+<th class="p-space-sm">Program Name</th>
+<th class="p-space-sm">Primary Adaptation</th>
+<th class="p-space-sm">CNS Fatigue</th>
+<th class="p-space-sm">Volume Load</th>
+<th class="p-space-sm">Telemetry Level</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-high">
+<tr>
+<td class="p-space-sm text-primary font-title-md">Barbell Mastery</td>
+<td class="p-space-sm">Maximal Strength (1RM)</td>
+<td class="p-space-sm"><span class="px-2 py-0.5 rounded bg-error-container text-error text-xs uppercase font-label-sm">High (Tier 5)</span></td>
+<td class="p-space-sm">Moderate</td>
+<td class="p-space-sm text-primary-container">RPE 8.5–10</td>
+</tr>
+<tr>
+<td class="p-space-sm text-primary font-title-md">Hypertrophy Blueprint</td>
+<td class="p-space-sm">Myofibrillar Hypertrophy</td>
+<td class="p-space-sm"><span class="px-2 py-0.5 rounded bg-secondary-container text-primary text-xs uppercase font-label-sm">Moderate (Tier 3)</span></td>
+<td class="p-space-sm">Very High</td>
+<td class="p-space-sm text-primary-container">RPE 7.5–9</td>
+</tr>
+<tr>
+<td class="p-space-sm text-primary font-title-md">Metabolic HIIT Inferno</td>
+<td class="p-space-sm">Anaerobic Glycolysis</td>
+<td class="p-space-sm"><span class="px-2 py-0.5 rounded bg-secondary-container text-primary text-xs uppercase font-label-sm">Moderate-High</span></td>
+<td class="p-space-sm">High Density</td>
+<td class="p-space-sm text-primary-container">HR Zone 4–5</td>
+</tr>
+<tr>
+<td class="p-space-sm text-primary font-title-md">Aerobic Engine</td>
+<td class="p-space-sm">Mitochondrial Biogenesis</td>
+<td class="p-space-sm"><span class="px-2 py-0.5 rounded bg-surface-container-high text-tertiary-fixed-dim text-xs uppercase font-label-sm">Low (Tier 1)</span></td>
+<td class="p-space-sm">Continuous</td>
+<td class="p-space-sm text-primary-container">HR Zone 2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 4. VIEW: ELITE TRAINERS -->
+<!-- ========================================== -->
+<section class="page-view flex flex-col w-full hidden transition-opacity duration-300" id="page-trainers">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-lg flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<span class="font-label-sm text-label-sm uppercase text-primary-container tracking-wider">COACHING ROSTER</span>
+<h1 class="font-headline-lg text-headline-lg uppercase text-primary tracking-tight">MASTER BIOMECHANISTS &amp; DIRECTORS</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Learn from elite operators who hold international strength credentials, national Olympic lifting titles, and master degrees in exercise physiology.
+        </p>
+</div>
+<!-- 4 Coaches Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Trainer 1 -->
+<div class="bg-surface-container rounded-lg overflow-hidden shadow-sm flex flex-col justify-between group">
+<div class="relative h-72 w-full overflow-hidden">
+<div class="h-full w-full bg-cover bg-center group-hover:scale-105 transition-transform duration-300" style="background-image: url('https://lh3.googleusercontent.com/aida/AEtjO1UKHzClb6NzTno6oGe-LQ4OrAs5nAqwJ0F5aGQ0ZMBcMiczgDnvJ7ewPocoh_DVJP7G5YEGT73ie_f0CtJJTXek3xj0mpHClYAvsqueA_OUh464uCfnSCqvcwKk9EjSUK_04-ws130GgGG4dFJCT8x2gfcnH_Ti0DdBFjqUJtRSkwpIItgEB_5Ojlh2Ug7kOzhavZ19F1cb1z50inMi36wb0fgRhR6uhBeiQjnUtqNOjyqdC1GpADRgng');"></div>
+<div class="absolute top-space-sm right-space-sm bg-surface-container-lowest/80 px-2 py-1 rounded text-xs font-label-data text-primary-container">
+              CSCS / USAW
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase text-primary-container">HEAD STRENGTH DIRECTOR</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Marcus Vance</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              9+ years coaching powerlifters and collegiate sprinters. Focuses on low-bar leverages and rate of force development.
+            </p>
+<div class="flex items-center justify-between text-xs font-label-data text-on-surface-variant pt-space-xs">
+<span>9+ YRS EXP</span>
+<span class="text-primary-container">★ 4.98 (310)</span>
+</div>
+<button class="btn-navigate mt-space-sm w-full py-2 bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-primary font-title-md text-xs uppercase tracking-wider rounded transition-all" data-target="page-contact" type="button">
+              Book Assessment
+            </button>
+</div>
+</div>
+<!-- Trainer 2 -->
+<div class="bg-surface-container rounded-lg overflow-hidden shadow-sm flex flex-col justify-between group">
+<div class="relative h-72 w-full overflow-hidden">
+<div class="h-full w-full bg-cover bg-center group-hover:scale-105 transition-transform duration-300" style="background-image: url('https://lh3.googleusercontent.com/aida/AEtjO1VKVEnHg8DT4Enm8aNTAi6PnNLIp1gPs-EGb8Yg-xRdWnn7mmERjm8HslD1q6ecUZUXlin0r8d2-kgz6WeRmt7Lg2PFzJ4x28OMXaQrPMWh0onsRqiQfz60wzy-yo7U_ZoEumhNLJTXMUPqfm4TL1jLEXYpkshHHpmlMbJVL7LO32s8cDCZTcQUVDk57XRHuWrsRd8qGJOWnw22oKQVJcqXCSQwvicf6KpGAVbnPeE1l1C_qQOV5hCaJA');"></div>
+<div class="absolute top-space-sm right-space-sm bg-surface-container-lowest/80 px-2 py-1 rounded text-xs font-label-data text-secondary">
+              EXOS / NASM-PES
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase text-secondary">METABOLIC &amp; HIIT LEAD</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Elena Rostova</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Former national decathlete specializing in high-cadence conditioning, lactate threshold optimization, and plyometrics.
+            </p>
+<div class="flex items-center justify-between text-xs font-label-data text-on-surface-variant pt-space-xs">
+<span>7+ YRS EXP</span>
+<span class="text-secondary">★ 4.96 (280)</span>
+</div>
+<button class="btn-navigate mt-space-sm w-full py-2 bg-surface-container-high hover:bg-secondary hover:text-on-secondary text-primary font-title-md text-xs uppercase tracking-wider rounded transition-all" data-target="page-contact" type="button">
+              Book Assessment
+            </button>
+</div>
+</div>
+<!-- Trainer 3 -->
+<div class="bg-surface-container rounded-lg overflow-hidden shadow-sm flex flex-col justify-between group">
+<div class="relative h-72 w-full overflow-hidden">
+<div class="h-full w-full bg-cover bg-center group-hover:scale-105 transition-transform duration-300" style="background-image: url('https://lh3.googleusercontent.com/aida/AEtjO1U35hio-ETRcKq-ZFS3nvp13V51SYJwMH8N92vDi3qE9HT5UuWZPEFQoAAJay2CkKchH-BbDtLwBfSAdnQFSWCLFCCBNrIoHAy5QYDpIkrTa3-myW-NvAAYtWE-7PmFnCcit8L26lrj39PO3D5S96scp_ck8AX4pYMDnM8JqssJDUKc20neDohSWRWn0k7QVkGFbrFEVOWzMLraqyfbixwjnJ3gcwfDlQHt9qCYxOUep5wrCZPssB6PPbY');"></div>
+<div class="absolute top-space-sm right-space-sm bg-surface-container-lowest/80 px-2 py-1 rounded text-xs font-label-data text-tertiary-fixed-dim">
+              DPT / CSCS
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase text-tertiary-fixed-dim">PERFORMANCE &amp; MOBILITY</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Maya Al-Mansoor</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Doctor of Physical Therapy integrating joint capsule decompression with heavy posterior chain loading and recovery protocols.
+            </p>
+<div class="flex items-center justify-between text-xs font-label-data text-on-surface-variant pt-space-xs">
+<span>6+ YRS EXP</span>
+<span class="text-tertiary-fixed-dim">★ 4.99 (415)</span>
+</div>
+<button class="btn-navigate mt-space-sm w-full py-2 bg-surface-container-high hover:bg-tertiary-fixed hover:text-on-tertiary text-primary font-title-md text-xs uppercase tracking-wider rounded transition-all" data-target="page-contact" type="button">
+              Book Assessment
+            </button>
+</div>
+</div>
+<!-- Trainer 4 -->
+<div class="bg-surface-container rounded-lg overflow-hidden shadow-sm flex flex-col justify-between group">
+<div class="relative h-72 w-full overflow-hidden">
+<div class="h-full w-full bg-cover bg-center group-hover:scale-105 transition-transform duration-300" style="background-image: url('https://lh3.googleusercontent.com/aida/AEtjO1XHhl0Bvz35NvQ2t1mHqxI22owPLmr_GEgjIHNtL3AYfcdc4w1eeTk_AzR2PPwK-RHR-SscbRieuSm-RJ_oq5-DjZv316sl1Hf1nHu00-nDF81pc63dhUbRtCBrxXGvekmD5fxtQTmt_mkDG0aWGha-ZbQ6FrpFcKXyKHU5s8iJM3bRcX8YK3R47PkTf9ajCtlWN_a8yK1yxO11rbDkTOD5QOe1A2yTUzK0vKwCsyK0rNCLZGAlq6nZb_U');"></div>
+<div class="absolute top-space-sm right-space-sm bg-surface-container-lowest/80 px-2 py-1 rounded text-xs font-label-data text-primary">
+              IFBB PRO / MS EX SCI
+            </div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase text-primary">PHYSIQUE ARCHITECT</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">David Chen</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Master of hypertrophy sequencing, intra-workout nutrient timing, and extreme muscle balance symmetry diagnostics.
+            </p>
+<div class="flex items-center justify-between text-xs font-label-data text-on-surface-variant pt-space-xs">
+<span>11+ YRS EXP</span>
+<span class="text-primary-container">★ 4.97 (520)</span>
+</div>
+<button class="btn-navigate mt-space-sm w-full py-2 bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-primary font-title-md text-xs uppercase tracking-wider rounded transition-all" data-target="page-contact" type="button">
+              Book Assessment
+            </button>
+</div>
+</div>
+</div>
+<!-- 4-Pillar Coaching Protocol Banner -->
+<div class="bg-surface-container rounded-lg p-space-lg shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">THE 4-PILLAR COACHING PROTOCOL</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Kinematic Movement Screening • Velocity-Based Loading • Post-Workout Telemetry Audit • Nutritional Macro Rebalance
+          </p>
+</div>
+<button class="btn-navigate px-space-lg py-space-sm rounded bg-primary-container text-on-primary-container font-title-md text-xs uppercase tracking-wider shrink-0" data-target="page-contact" type="button">
+          Apply For Coaching
+        </button>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 5. VIEW: BMI & BIOMETRICS CALCULATOR -->
+<!-- ========================================== -->
+<section class="page-view flex flex-col w-full hidden transition-opacity duration-300" id="page-bmi">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-lg flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<span class="font-label-sm text-label-sm uppercase text-primary-container tracking-wider">PHYSIOLOGICAL ASSESSMENT ENGINE</span>
+<h1 class="font-headline-lg text-headline-lg uppercase text-primary tracking-tight">BIOMETRIC TELEMETRY &amp; BMI INDEX</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Adjust the telemetry parameters to calculate precise Body Mass Index, systemic caloric baselines, and estimated daily hydration &amp; macronutrient benchmarks.
+        </p>
+</div>
+<!-- Calculator Main Bento Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Interactive Input Console -->
+<div class="lg:col-span-7 bg-surface-container rounded-lg p-space-lg flex flex-col gap-space-lg shadow-sm">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Biometric Inputs</h3>
+<div class="flex items-center gap-space-xs bg-surface-container-high p-1 rounded">
+<button class="px-3 py-1 rounded text-xs font-label-data uppercase bg-primary-container text-on-primary-container" id="bmi-unit-metric" type="button">Metric (cm / kg)</button>
+<button class="px-3 py-1 rounded text-xs font-label-data uppercase text-on-surface-variant hover:text-on-surface" id="bmi-unit-imperial" type="button">Imperial (in / lbs)</button>
+</div>
+</div>
+<!-- Height Slider & Value -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between font-label-data text-xs">
+<span class="text-on-surface-variant uppercase">Height Telemetry</span>
+<span class="text-primary text-sm font-bold" id="bmi-height-display">180 cm</span>
+</div>
+<input class="w-full accent-[#c3f400] cursor-pointer h-2 bg-surface-container-highest rounded" id="bmi-height-slider" max="230" min="130" type="range" value="180"/>
+</div>
+<!-- Weight Slider & Value -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between font-label-data text-xs">
+<span class="text-on-surface-variant uppercase">Weight Telemetry</span>
+<span class="text-primary text-sm font-bold" id="bmi-weight-display">82 kg</span>
+</div>
+<input class="w-full accent-[#c3f400] cursor-pointer h-2 bg-surface-container-highest rounded" id="bmi-weight-slider" max="180" min="40" type="range" value="82"/>
+</div>
+<!-- Age & Gender Row -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="bmi-age-select">Athlete Age</label>
+<select class="bg-surface-container-high text-on-surface p-space-sm rounded font-body-md text-sm outline-none" id="bmi-age-select">
+<option value="22">18–24 Years</option>
+<option selected="" value="28">25–34 Years</option>
+<option value="38">35–44 Years</option>
+<option value="48">45–54 Years</option>
+<option value="60">55+ Years</option>
+</select>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="bmi-activity-select">Activity Multiplier</label>
+<select class="bg-surface-container-high text-on-surface p-space-sm rounded font-body-md text-sm outline-none" id="bmi-activity-select">
+<option value="1.2">Sedentary (Base)</option>
+<option selected="" value="1.55">Active Lifter (3-5 d/wk)</option>
+<option value="1.75">High Intensity (6+ d/wk)</option>
+<option value="1.9">Elite Competitive Athlete</option>
+</select>
+</div>
+</div>
+<button class="w-full py-space-md bg-primary-container text-on-primary-container font-title-lg text-title-md uppercase rounded shadow hover:shadow-[0_0_16px_rgba(195,244,0,0.3)] transition-all" id="bmi-compute-btn" type="button">
+            Compute Athletic Telemetry
+          </button>
+</div>
+<!-- Dynamic Output Gauge & Biometric Card -->
+<div class="lg:col-span-5 bg-surface-container rounded-lg p-space-lg flex flex-col justify-between gap-space-lg shadow-sm">
+<div class="flex flex-col gap-space-sm items-center text-center">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider">DIAGNOSTIC SCORE</span>
+<!-- Dynamic Circular Gauge Simulation -->
+<div class="relative w-44 h-44 flex items-center justify-center">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 100 100">
+<circle class="text-surface-container-high" cx="50" cy="50" fill="transparent" r="42" stroke="currentColor" stroke-width="8"></circle>
+<circle class="text-primary-container transition-all duration-500" cx="50" cy="50" fill="transparent" id="bmi-gauge-circle" r="42" stroke="currentColor" stroke-dasharray="264" stroke-dashoffset="80" stroke-linecap="round" stroke-width="8"></circle>
+</svg>
+<div class="absolute flex flex-col items-center justify-center">
+<span class="font-display text-headline-lg font-bold text-primary" id="bmi-score-number">25.3</span>
+<span class="font-label-sm text-[10px] uppercase text-on-surface-variant">BMI INDEX</span>
+</div>
+</div>
+<div class="flex flex-col items-center">
+<span class="px-space-md py-1 rounded bg-surface-container-high text-primary-container font-label-data text-xs uppercase tracking-wider" id="bmi-status-badge">
+                Normal Athletic Baseline
+              </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs mt-space-xs" id="bmi-status-desc">
+                Optimal functional mass. Systemic skeletal muscular density within high efficiency bandwidth.
+              </p>
+</div>
+</div>
+<!-- Prescriptions Strip -->
+<div class="grid grid-cols-3 gap-space-xs bg-surface-container-high p-space-sm rounded text-center">
+<div>
+<div class="font-label-data text-sm text-primary" id="bmi-caloric-out">2,650</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Target KCAL</div>
+</div>
+<div>
+<div class="font-label-data text-sm text-tertiary-fixed-dim" id="bmi-water-out">3.6 L</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Hydration</div>
+</div>
+<div>
+<div class="font-label-data text-sm text-primary-container" id="bmi-protein-out">164 G</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">Protein Protocol</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Biometric Science & The Muscularity Paradox -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter bg-surface-container-low rounded-lg p-space-lg shadow-sm">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase text-primary-container tracking-wider">PHYSIOLOGY INSIGHT</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">The Muscularity Paradox</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Standard BMI calculations do not differentiate lean contractile tissue from visceral adiposity. FitZone mentors correlate your index alongside subcutaneous caliper folds, bar velocity metrics, and active bioimpedance testing.
+          </p>
+</div>
+<div class="flex flex-col gap-space-xs justify-center">
+<div class="flex items-center justify-between text-xs font-label-data p-2 bg-surface-container rounded">
+<span class="text-on-surface">Underweight Threshold</span>
+<span class="text-tertiary-fixed-dim">&lt; 18.5 BMI</span>
+</div>
+<div class="flex items-center justify-between text-xs font-label-data p-2 bg-surface-container rounded">
+<span class="text-primary-container">Optimal Athletic Zone</span>
+<span class="text-primary-container">18.5 – 24.9 BMI</span>
+</div>
+<div class="flex items-center justify-between text-xs font-label-data p-2 bg-surface-container rounded">
+<span class="text-secondary">Elevated Mass / Hypertrophic</span>
+<span class="text-secondary">25.0 – 29.9 BMI</span>
+</div>
+<div class="flex items-center justify-between text-xs font-label-data p-2 bg-surface-container rounded">
+<span class="text-error">High Adipose Strain</span>
+<span class="text-error">≥ 30.0 BMI</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 6. VIEW: WORKOUT TRACKER & TELEMETRY HUB -->
+<!-- ========================================== -->
+<section class="page-view flex flex-col w-full hidden transition-opacity duration-300" id="page-tracker">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-lg flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-label-sm text-label-sm uppercase text-primary-container tracking-wider">ATHLETE SESSION LOGGER</span>
+<h1 class="font-headline-lg text-headline-lg uppercase text-primary tracking-tight">WORKOUT TRACKER &amp; TELEMETRY</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Input exertion sets, monitor cardiovascular zone allocations, and view dynamic session records stored during your current training block.
+          </p>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex w-3 h-3 rounded-full bg-primary-container animate-ping"></span>
+<span class="font-label-data text-xs text-primary uppercase">SYNCED TO CENTRAL TELEMETRY HUB</span>
+</div>
+</div>
+<!-- Quick Session Summary Counters -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter">
+<div class="bg-surface-container rounded p-space-md flex flex-col gap-1 shadow-sm">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Completed Cycles</span>
+<span class="font-display text-headline-lg text-primary-container font-bold" id="tracker-completed-count">14</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">+3 this calendar week</span>
+</div>
+<div class="bg-surface-container rounded p-space-md flex flex-col gap-1 shadow-sm">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Active Load Time</span>
+<span class="font-display text-headline-lg text-primary font-bold" id="tracker-load-time">680 <span class="text-sm font-normal">MIN</span></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">97% of target pacing</span>
+</div>
+<div class="bg-surface-container rounded p-space-md flex flex-col gap-1 shadow-sm">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Caloric Expended</span>
+<span class="font-display text-headline-lg text-secondary font-bold" id="tracker-calories-burned">6,850</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Peak EPOC maintained</span>
+</div>
+<div class="bg-surface-container rounded p-space-md flex flex-col gap-1 shadow-sm">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Active Streak</span>
+<span class="font-display text-headline-lg text-tertiary-fixed-dim font-bold">5 <span class="text-sm font-normal">DAYS</span></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Optimal recovery tier</span>
+</div>
+</div>
+<!-- Interactive Session Logger Form + Weekly Cadence Bar Chart -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- New Session Form -->
+<div class="lg:col-span-5 bg-surface-container rounded-lg p-space-lg flex flex-col gap-space-md shadow-sm">
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Log New Session</h3>
+<form class="flex flex-col gap-space-sm" id="tracker-add-form">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="workout-title">Session Title</label>
+<input class="bg-surface-container-high text-primary px-space-sm py-2 rounded font-body-md text-sm outline-none focus:ring-1 focus:ring-primary-container" id="workout-title" placeholder="e.g. Heavy Deadlift &amp; Core" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="workout-category">Discipline Protocol</label>
+<select class="bg-surface-container-high text-primary px-space-sm py-2 rounded font-body-md text-sm outline-none" id="workout-category">
+<option value="Strength">Strength &amp; Powerlifting</option>
+<option value="Metabolic HIIT">Metabolic HIIT</option>
+<option value="Hypertrophy">Hypertrophy Split</option>
+<option value="Endurance">Zone 2 Cardio &amp; Row</option>
+</select>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="workout-duration">Duration (mins)</label>
+<input class="bg-surface-container-high text-primary px-space-sm py-2 rounded font-body-md text-sm outline-none" id="workout-duration" max="240" min="10" required="" type="number" value="60"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="workout-calories">Calories (kcal)</label>
+<input class="bg-surface-container-high text-primary px-space-sm py-2 rounded font-body-md text-sm outline-none" id="workout-calories" max="2000" min="50" required="" type="number" value="450"/>
+</div>
+</div>
+<button class="mt-space-sm w-full py-space-sm bg-primary-container text-on-primary-container font-title-lg text-title-md uppercase rounded shadow hover:shadow-[0_0_12px_rgba(195,244,0,0.4)] transition-all" type="submit">
+              Commit Session to Log
+            </button>
+</form>
+</div>
+<!-- Weekly Activity Cadence Visual Chart -->
+<div class="lg:col-span-7 bg-surface-container rounded-lg p-space-lg flex flex-col justify-between gap-space-md shadow-sm">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Weekly Exertion Load</h3>
+<span class="font-label-data text-xs text-primary-container">CURRENT BLOCK</span>
+</div>
+<!-- Activity Bars Simulation -->
+<div class="flex items-end justify-between h-48 pt-space-md px-space-sm gap-space-xs">
+<div class="flex flex-col items-center gap-space-xs flex-1">
+<div class="w-full bg-primary-container rounded-t transition-all" style="height: 75%;"></div>
+<span class="font-label-sm text-[11px] text-on-surface-variant uppercase">Mon</span>
+</div>
+<div class="flex flex-col items-center gap-space-xs flex-1">
+<div class="w-full bg-primary-container rounded-t transition-all" style="height: 90%;"></div>
+<span class="font-label-sm text-[11px] text-on-surface-variant uppercase">Tue</span>
+</div>
+<div class="flex flex-col items-center gap-space-xs flex-1">
+<div class="w-full bg-surface-container-high rounded-t transition-all" style="height: 25%;"></div>
+<span class="font-label-sm text-[11px] text-on-surface-variant uppercase">Wed</span>
+</div>
+<div class="flex flex-col items-center gap-space-xs flex-1">
+<div class="w-full bg-primary-container rounded-t transition-all" style="height: 85%;"></div>
+<span class="font-label-sm text-[11px] text-on-surface-variant uppercase">Thu</span>
+</div>
+<div class="flex flex-col items-center gap-space-xs flex-1">
+<div class="w-full bg-secondary rounded-t transition-all" style="height: 95%;"></div>
+<span class="font-label-sm text-[11px] text-on-surface-variant uppercase">Fri</span>
+</div>
+<div class="flex flex-col items-center gap-space-xs flex-1">
+<div class="w-full bg-primary-container rounded-t transition-all" style="height: 60%;"></div>
+<span class="font-label-sm text-[11px] text-on-surface-variant uppercase">Sat</span>
+</div>
+<div class="flex flex-col items-center gap-space-xs flex-1">
+<div class="w-full bg-surface-container-high rounded-t transition-all" style="height: 15%;"></div>
+<span class="font-label-sm text-[11px] text-on-surface-variant uppercase">Sun</span>
+</div>
+</div>
+<!-- Heart Rate Zone Breakdown Strip -->
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between text-xs font-label-data text-on-surface-variant">
+<span>HEART RATE DISTRIBUTION</span>
+<span class="text-secondary">ZONE 4 DOMINANT</span>
+</div>
+<div class="flex h-3 rounded overflow-hidden">
+<div class="bg-tertiary-fixed-dim w-[15%]" title="Zone 1 - 15%"></div>
+<div class="bg-primary-container w-[25%]" title="Zone 2 - 25%"></div>
+<div class="bg-primary w-[20%]" title="Zone 3 - 20%"></div>
+<div class="bg-secondary w-[30%]" title="Zone 4 - 30%"></div>
+<div class="bg-secondary-container w-[10%]" title="Zone 5 - 10%"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Live Recent Sessions Feed -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Live Activity Log</h3>
+<span class="font-label-sm text-xs text-on-surface-variant uppercase">REAL-TIME TELEMETRY</span>
+</div>
+<div class="flex flex-col gap-space-xs" id="tracker-sessions-feed">
+<!-- Session item 1 -->
+<div class="session-log-item bg-surface-container p-space-md rounded flex items-center justify-between gap-space-md shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-xl">fitness_center</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">Barbell Squats &amp; Romanian Deadlifts</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Strength Protocol • Today, 08:30 AM</span>
+</div>
+</div>
+<div class="flex items-center gap-space-lg">
+<div class="text-right hidden sm:block">
+<div class="font-label-data text-sm text-primary">75 MIN</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">520 KCAL</div>
+</div>
+<button class="btn-delete-session text-on-surface-variant hover:text-error transition-colors p-1" title="Delete record" type="button">
+<span class="material-symbols-outlined text-lg">delete</span>
+</button>
+</div>
+</div>
+<!-- Session item 2 -->
+<div class="session-log-item bg-surface-container p-space-md rounded flex items-center justify-between gap-space-md shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-xl">sprint</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">Metabolic Assault &amp; Battle Ropes</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Metabolic HIIT • Yesterday, 18:15 PM</span>
+</div>
+</div>
+<div class="flex items-center gap-space-lg">
+<div class="text-right hidden sm:block">
+<div class="font-label-data text-sm text-primary">45 MIN</div>
+<div class="font-label-sm text-[10px] text-on-surface-variant uppercase">610 KCAL</div>
+</div>
+<button class="btn-delete-session text-on-surface-variant hover:text-error transition-colors p-1" title="Delete record" type="button">
+<span class="material-symbols-outlined text-lg">delete</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 7. VIEW: MEMBERSHIP PLANS -->
+<!-- ========================================== -->
+<section class="page-view flex flex-col w-full hidden transition-opacity duration-300" id="page-membership">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-lg flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center gap-space-xs max-w-2xl mx-auto">
+<span class="font-label-sm text-label-sm uppercase text-primary-container tracking-wider">TIER SUBSCRIPTIONS</span>
+<h1 class="font-headline-lg text-headline-lg uppercase text-primary tracking-tight">CHOOSE YOUR ATHLETIC COMMITMENT</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Transparent, contract-free performance access. Upgrade or pause directly through athlete telemetry anytime.
+        </p>
+<!-- Billing Toggle -->
+<div class="flex items-center gap-space-md mt-space-md bg-surface-container p-1 rounded-lg">
+<button class="px-space-md py-1.5 rounded font-label-data text-xs uppercase bg-primary-container text-on-primary-container transition-all" id="billing-monthly" type="button">Monthly Billing</button>
+<button class="px-space-md py-1.5 rounded font-label-data text-xs uppercase text-on-surface-variant hover:text-primary transition-all flex items-center gap-1" id="billing-annual" type="button">
+<span>Annual Billing</span>
+<span class="text-[10px] bg-secondary-container text-primary px-1.5 py-0.5 rounded font-bold">SAVE 20%</span>
+</button>
+</div>
+</div>
+<!-- Pricing Cards 3-Column -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter items-stretch">
+<!-- Basic Tier -->
+<div class="bg-surface-container rounded-lg p-space-lg flex flex-col justify-between gap-space-lg shadow-sm">
+<div class="flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">FOUNDATION LEVEL</span>
+<h3 class="font-headline-md text-headline-md uppercase text-primary">Basic Tier</h3>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-display text-headline-lg text-primary price-display" data-annual="31" data-monthly="39">$39</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ Month</span>
+</div>
+<ul class="flex flex-col gap-space-sm font-body-md text-body-md text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-base">check</span> Full Floor &amp; Racks Access</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-base">check</span> Standard Locker Facilities</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-base">check</span> FitZone Telemetry Mobile Sync</li>
+<li class="flex items-center gap-2 text-on-surface-variant/50"><span class="material-symbols-outlined text-base">close</span> 24/7 After-Hours Keycard</li>
+<li class="flex items-center gap-2 text-on-surface-variant/50"><span class="material-symbols-outlined text-base">close</span> Cryo Recovery Spa Access</li>
+</ul>
+</div>
+<button class="btn-navigate w-full py-space-sm bg-surface-container-high hover:bg-surface-bright text-primary font-title-lg text-title-md uppercase rounded transition-all" data-target="page-contact" type="button">
+            Select Basic
+          </button>
+</div>
+<!-- Premium Tier (Featured) -->
+<div class="bg-surface-container-high rounded-lg p-space-lg flex flex-col justify-between gap-space-lg shadow-xl relative ring-2 ring-primary-container">
+<div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary-container text-on-primary-container px-3 py-0.5 rounded font-label-data text-xs uppercase tracking-wider font-bold">
+            MOST POPULAR TIER
+          </div>
+<div class="flex flex-col gap-space-md pt-space-xs">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-primary-container">PERFORMANCE ADVANCED</span>
+<h3 class="font-headline-md text-headline-md uppercase text-primary">Premium Tier</h3>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-display text-headline-lg text-primary-container price-display" data-annual="63" data-monthly="79">$79</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ Month</span>
+</div>
+<ul class="flex flex-col gap-space-sm font-body-md text-body-md text-on-surface">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-base">check</span> 24/7 Full Facility Keycard</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-base">check</span> Unlimited Master Group Classes</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-base">check</span> Bi-Weekly Trainer Check-Ins</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-base">check</span> Infrared Sauna &amp; Cold Plunge</li>
+<li class="flex items-center gap-2 text-on-surface-variant/50"><span class="material-symbols-outlined text-base">close</span> Dedicated Private Valet Locker</li>
+</ul>
+</div>
+<button class="btn-navigate w-full py-space-sm bg-primary-container hover:shadow-[0_0_16px_rgba(195,244,0,0.4)] text-on-primary-container font-title-lg text-title-md uppercase rounded transition-all" data-target="page-contact" type="button">
+            Join Premium Now
+          </button>
+</div>
+<!-- Pro VIP Elite -->
+<div class="bg-surface-container rounded-lg p-space-lg flex flex-col justify-between gap-space-lg shadow-sm">
+<div class="flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase text-secondary">MAXIMUM EXERTION</span>
+<h3 class="font-headline-md text-headline-md uppercase text-primary">Pro VIP Elite</h3>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-display text-headline-lg text-primary price-display" data-annual="103" data-monthly="129">$129</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ Month</span>
+</div>
+<ul class="flex flex-col gap-space-sm font-body-md text-body-md text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-base">check</span> All Premium Inclusions</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-base">check</span> 4x Monthly 1-on-1 CSCS Sessions</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-base">check</span> Unlimited Cryo Chamber Sessions</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-base">check</span> Personalized Macro Nutrition Audit</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-base">check</span> VIP Valet Locker &amp; Towel Service</li>
+</ul>
+</div>
+<button class="btn-navigate w-full py-space-sm bg-surface-container-high hover:bg-surface-bright text-primary font-title-lg text-title-md uppercase rounded transition-all" data-target="page-contact" type="button">
+            Select Pro VIP
+          </button>
+</div>
+</div>
+<!-- FAQ Accordion Matrix -->
+<div class="bg-surface-container rounded-lg p-space-lg flex flex-col gap-space-md shadow-sm">
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">MEMBERSHIP PROTOCOL FAQS</h3>
+<div class="flex flex-col gap-space-xs">
+<div class="p-space-md bg-surface-container-high rounded flex flex-col gap-1">
+<span class="font-title-md text-title-md text-primary">Is there any long-term contractual lock-in?</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Never. All monthly memberships operate on simple 30-day notice cancellation via athlete dashboard.</span>
+</div>
+<div class="p-space-md bg-surface-container-high rounded flex flex-col gap-1">
+<span class="font-title-md text-title-md text-primary">How do I access 24/7 facilities outside standard hours?</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Your member profile provides an encrypted NFC digital key pass on mobile, granting secure entrance at all turnstiles.</span>
+</div>
+<div class="p-space-md bg-surface-container-high rounded flex flex-col gap-1">
+<span class="font-title-md text-title-md text-primary">Can I freeze my subscription during business travel?</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Yes, you may freeze your account up to 60 days per calendar year at no surcharge directly from telemetry preferences.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 8. VIEW: CONTACT & FACILITY INTAKE -->
+<!-- ========================================== -->
+<section class="page-view flex flex-col w-full hidden transition-opacity duration-300" id="page-contact">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-lg flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<span class="font-label-sm text-label-sm uppercase text-primary-container tracking-wider">COMMAND HEADQUARTERS</span>
+<h1 class="font-headline-lg text-headline-lg uppercase text-primary tracking-tight">CONTACT &amp; ATHLETE INTAKE</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Schedule an in-person orientation, consult with biomechanics directors, or initialize your membership registration today.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Interactive Form -->
+<div class="lg:col-span-7 bg-surface-container rounded-lg p-space-lg flex flex-col gap-space-md shadow-sm">
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Athlete Intake Dossier</h3>
+<form class="flex flex-col gap-space-sm" id="contact-intake-form">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="intake-name">Full Legal Name</label>
+<input class="bg-surface-container-high text-primary px-space-sm py-2 rounded font-body-md text-sm outline-none focus:ring-1 focus:ring-primary-container" id="intake-name" placeholder="Marcus Vance" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="intake-email">Email Dispatch</label>
+<input class="bg-surface-container-high text-primary px-space-sm py-2 rounded font-body-md text-sm outline-none focus:ring-1 focus:ring-primary-container" id="intake-email" placeholder="athlete@fitzone.com" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="intake-phone">Direct Telephony</label>
+<input class="bg-surface-container-high text-primary px-space-sm py-2 rounded font-body-md text-sm outline-none focus:ring-1 focus:ring-primary-container" id="intake-phone" placeholder="+1 (555) 019-2834" type="tel"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="intake-goal">Primary Objective</label>
+<select class="bg-surface-container-high text-primary px-space-sm py-2 rounded font-body-md text-sm outline-none" id="intake-goal">
+<option>Maximal Strength &amp; 1RM Development</option>
+<option>Metabolic Conditioning &amp; Body Fat Reduction</option>
+<option>Post-Injury Kinematic Rehabilitation</option>
+<option>General Athletic Longevity</option>
+</select>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="intake-notes">Training Background &amp; Medical Notes</label>
+<textarea class="bg-surface-container-high text-primary px-space-sm py-2 rounded font-body-md text-sm outline-none focus:ring-1 focus:ring-primary-container" id="intake-notes" placeholder="Detail your previous athletic history or joint contraindications..." rows="4"></textarea>
+</div>
+<button class="mt-space-sm w-full py-space-md bg-primary-container text-on-primary-container font-title-lg text-title-md uppercase rounded shadow hover:shadow-[0_0_16px_rgba(195,244,0,0.4)] transition-all" type="submit">
+              Send Message &amp; Book Intake
+            </button>
+</form>
+<div class="hidden p-space-sm rounded bg-surface-container-high text-primary-container text-xs font-label-data uppercase tracking-wider flex items-center gap-2" id="contact-success-msg">
+<span class="material-symbols-outlined text-sm">verified</span>
+<span>Intake dossier acknowledged. A performance director will dispatch your clearance within 2 hours.</span>
+</div>
+</div>
+<!-- Facility Command Info & Map Graphic -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="bg-surface-container rounded-lg p-space-lg flex flex-col gap-space-md shadow-sm">
+<h3 class="font-headline-sm text-headline-sm uppercase text-primary">Facility Coordinates</h3>
+<div class="flex flex-col gap-space-sm font-body-md text-body-md text-on-surface-variant">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary-container">location_on</span>
+<div>
+<div class="text-primary font-bold">FitZone Olympic Complex</div>
+<div>4800 Olympic Blvd, District 4, Los Angeles, CA 90015</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container">call</span>
+<span class="text-primary font-label-data">+1 (800) 948-ZONE</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container">mail</span>
+<span class="text-primary font-label-data">telemetry@fitzoneperformance.com</span>
+</div>
+</div>
+</div>
+<!-- Stylized High-Contrast Map View Graphic -->
+<div class="bg-surface-container rounded-lg p-space-md shadow-sm flex flex-col gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">SATELLITE POSITIONING</span>
+<div class="relative w-full h-48 bg-surface-container-high rounded overflow-hidden flex items-center justify-center border-none">
+<!-- Inline stylized mock grid for radar map feel -->
+<svg class="absolute inset-0 w-full h-full opacity-20" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="24" id="grid-map" patternunits="userSpaceOnUse" width="24">
+<path class="text-primary-container" d="M 24 0 L 0 0 0 24" fill="none" stroke="currentColor" stroke-width="0.5"></path>
+</pattern>
+</defs>
+<rect fill="url(#grid-map)" height="100%" width="100%"></rect>
+</svg>
+<div class="relative flex flex-col items-center gap-1 z-10">
+<span class="material-symbols-outlined text-primary-container text-4xl animate-bounce">location_searching</span>
+<span class="font-label-data text-xs uppercase text-primary">OLYMPIC BLVD SANCTUARY</span>
+<span class="font-label-sm text-[10px] text-on-surface-variant">34.0407° N, 118.2468° W</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Client-side SPA Router & Controller -->
+<script>
+    (function initFitZoneApp() {
+      // 1. SPA View Switcher
+      const pages = {
+        'home': 'page-home',
+        'about-us': 'page-about',
+        'workout-programs': 'page-programs',
+        'trainers': 'page-trainers',
+        'bmi-calculator': 'page-bmi',
+        'workout-tracker': 'page-tracker',
+        'membership-plans': 'page-membership',
+        'contact': 'page-contact',
+        'join-now': 'page-membership'
+      };
+
+      function switchView(targetId) {
+        document.querySelectorAll('.page-view').forEach(p => {
+          p.classList.add('hidden');
+          p.style.opacity = '0';
+        });
+
+        const activePage = document.getElementById(targetId);
+        if (activePage) {
+          activePage.classList.remove('hidden');
+          setTimeout(() => {
+            activePage.style.opacity = '1';
+          }, 10);
+        }
+
+        // Update pills
+        document.querySelectorAll('.quick-pill').forEach(pill => {
+          if (pill.getAttribute('data-target') === targetId) {
+            pill.className = 'quick-pill active-pill px-3 py-1 rounded text-xs font-label-data uppercase tracking-wider transition-all duration-200 bg-primary-container text-on-primary-container shadow-[0_0_12px_rgba(195,244,0,0.35)]';
+          } else {
+            pill.className = 'quick-pill px-3 py-1 rounded text-xs font-label-data uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright';
+          }
+        });
+
+        // Update header nav active styles
+        document.querySelectorAll('header nav a').forEach(link => {
+          const path = link.getAttribute('data-path');
+          if (pages[path] === targetId) {
+            link.className = 'font-title-md text-body-md text-primary-container font-headline-sm transition-colors';
+          } else {
+            link.className = 'font-title-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors';
+          }
+        });
+
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      // Quick Switcher click handlers
+      document.querySelectorAll('.quick-pill').forEach(pill => {
+        pill.addEventListener('click', (e) => {
+          e.preventDefault();
+          const target = pill.getAttribute('data-target');
+          switchView(target);
+        });
+      });
+
+      // Internal in-page button switchers
+      document.querySelectorAll('.btn-navigate').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const target = btn.getAttribute('data-target');
+          if (target) switchView(target);
+        });
+      });
+
+      // Header nav router intercepts
+      document.querySelectorAll('header nav a, header a[data-path="join-now"]').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const path = link.getAttribute('data-path');
+          if (pages[path]) {
+            switchView(pages[path]);
+          }
+        });
+      });
+
+      // Footer quick links intercept
+      document.querySelectorAll('footer ul li').forEach(item => {
+        item.addEventListener('click', () => {
+          const text = item.textContent.trim().toLowerCase();
+          if (text.includes('workout programs')) switchView('page-programs');
+          else if (text.includes('trainers')) switchView('page-trainers');
+          else if (text.includes('bmi')) switchView('page-bmi');
+          else if (text.includes('membership')) switchView('page-membership');
+        });
+      });
+
+      // 2. Program category filters
+      const filterBtns = document.querySelectorAll('.prog-filter-btn');
+      const progCards = document.querySelectorAll('.program-card');
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => {
+            b.className = 'prog-filter-btn px-3 py-1.5 rounded text-xs font-label-data uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-primary transition-all';
+          });
+          btn.className = 'prog-filter-btn px-3 py-1.5 rounded text-xs font-label-data uppercase tracking-wider bg-primary-container text-on-primary-container transition-all';
+          
+          const cat = btn.getAttribute('data-filter');
+          progCards.forEach(card => {
+            if (cat === 'all' || card.getAttribute('data-category') === cat) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // 3. BMI Interactive Logic
+      const heightSlider = document.getElementById('bmi-height-slider');
+      const weightSlider = document.getElementById('bmi-weight-slider');
+      const heightDisplay = document.getElementById('bmi-height-display');
+      const weightDisplay = document.getElementById('bmi-weight-display');
+      const computeBtn = document.getElementById('bmi-compute-btn');
+      const scoreNum = document.getElementById('bmi-score-number');
+      const statusBadge = document.getElementById('bmi-status-badge');
+      const statusDesc = document.getElementById('bmi-status-desc');
+      const gaugeCircle = document.getElementById('bmi-gauge-circle');
+      const kcalOut = document.getElementById('bmi-caloric-out');
+      const waterOut = document.getElementById('bmi-water-out');
+      const proteinOut = document.getElementById('bmi-protein-out');
+
+      let isMetric = true;
+
+      function updateBmiTelemetry() {
+        if (!heightSlider || !weightSlider) return;
+        const h = parseFloat(heightSlider.value);
+        const w = parseFloat(weightSlider.value);
+
+        let bmi = 0;
+        if (isMetric) {
+          bmi = (w / ((h / 100) * (h / 100)));
+        } else {
+          bmi = ((w / (h * h)) * 703);
+        }
+
+        const formattedBmi = bmi.toFixed(1);
+        if (scoreNum) scoreNum.textContent = formattedBmi;
+
+        // Visual offset (gauge circumference: 264)
+        const minBmi = 16, maxBmi = 36;
+        const normalized = Math.min(Math.max((bmi - minBmi) / (maxBmi - minBmi), 0), 1);
+        const offset = 264 - (normalized * 264);
+        if (gaugeCircle) gaugeCircle.style.strokeDashoffset = offset;
+
+        // Classification
+        if (bmi < 18.5) {
+          statusBadge.textContent = 'Underweight Baseline';
+          statusBadge.className = 'px-space-md py-1 rounded bg-surface-container-high text-tertiary-fixed-dim font-label-data text-xs uppercase tracking-wider';
+          statusDesc.textContent = 'Hyper-lean composition. Recommend surplus calorific protocol to promote mass stabilization.';
+        } else if (bmi <= 24.9) {
+          statusBadge.textContent = 'Normal Athletic Baseline';
+          statusBadge.className = 'px-space-md py-1 rounded bg-surface-container-high text-primary-container font-label-data text-xs uppercase tracking-wider';
+          statusDesc.textContent = 'Optimal functional mass. Systemic skeletal muscular density within high efficiency bandwidth.';
+        } else if (bmi <= 29.9) {
+          statusBadge.textContent = 'Hypertrophic / Overweight';
+          statusBadge.className = 'px-space-md py-1 rounded bg-surface-container-high text-secondary font-label-data text-xs uppercase tracking-wider';
+          statusDesc.textContent = 'High bone and muscular density common among powerlifters and heavy strength practitioners.';
+        } else {
+          statusBadge.textContent = 'High Adipose Strain';
+          statusBadge.className = 'px-space-md py-1 rounded bg-surface-container-high text-error font-label-data text-xs uppercase tracking-wider';
+          statusDesc.textContent = 'Recommend prioritized caloric deficit and high-volume aerobic conditioning.';
+        }
+
+        // Benchmarks
+        const calcWeightKg = isMetric ? w : (w * 0.453592);
+        kcalOut.textContent = Math.round(calcWeightKg * 32).toLocaleString();
+        waterOut.textContent = (calcWeightKg * 0.045).toFixed(1) + ' L';
+        proteinOut.textContent = Math.round(calcWeightKg * 2.0) + ' G';
+      }
+
+      if (heightSlider && weightSlider) {
+        heightSlider.addEventListener('input', () => {
+          heightDisplay.textContent = isMetric ? `${heightSlider.value} cm` : `${heightSlider.value} in`;
+          updateBmiTelemetry();
+        });
+        weightSlider.addEventListener('input', () => {
+          weightDisplay.textContent = isMetric ? `${weightSlider.value} kg` : `${weightSlider.value} lbs`;
+          updateBmiTelemetry();
+        });
+        if (computeBtn) computeBtn.addEventListener('click', updateBmiTelemetry);
+      }
+
+      // Unit Toggles
+      const btnMetric = document.getElementById('bmi-unit-metric');
+      const btnImperial = document.getElementById('bmi-unit-imperial');
+      if (btnMetric && btnImperial) {
+        btnMetric.addEventListener('click', () => {
+          if (isMetric) return;
+          isMetric = true;
+          btnMetric.className = 'px-3 py-1 rounded text-xs font-label-data uppercase bg-primary-container text-on-primary-container';
+          btnImperial.className = 'px-3 py-1 rounded text-xs font-label-data uppercase text-on-surface-variant hover:text-on-surface';
+          heightSlider.min = 130; heightSlider.max = 230; heightSlider.value = 180;
+          weightSlider.min = 40; weightSlider.max = 180; weightSlider.value = 82;
+          heightDisplay.textContent = '180 cm';
+          weightDisplay.textContent = '82 kg';
+          updateBmiTelemetry();
+        });
+
+        btnImperial.addEventListener('click', () => {
+          if (!isMetric) return;
+          isMetric = false;
+          btnImperial.className = 'px-3 py-1 rounded text-xs font-label-data uppercase bg-primary-container text-on-primary-container';
+          btnMetric.className = 'px-3 py-1 rounded text-xs font-label-data uppercase text-on-surface-variant hover:text-on-surface';
+          heightSlider.min = 50; heightSlider.max = 90; heightSlider.value = 71;
+          weightSlider.min = 90; weightSlider.max = 400; weightSlider.value = 180;
+          heightDisplay.textContent = '71 in';
+          weightDisplay.textContent = '180 lbs';
+          updateBmiTelemetry();
+        });
+      }
+
+      // 4. Workout Tracker Add & Delete Form
+      const trackerForm = document.getElementById('tracker-add-form');
+      const sessionsFeed = document.getElementById('tracker-sessions-feed');
+      const completedCountEl = document.getElementById('tracker-completed-count');
+      const loadTimeEl = document.getElementById('tracker-load-time');
+      const caloriesBurnedEl = document.getElementById('tracker-calories-burned');
+
+      let sessionCount = 14;
+      let totalMins = 680;
+      let totalCals = 6850;
+
+      if (trackerForm && sessionsFeed) {
+        trackerForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const title = document.getElementById('workout-title').value;
+          const category = document.getElementById('workout-category').value;
+          const duration = parseInt(document.getElementById('workout-duration').value, 10) || 45;
+          const cals = parseInt(document.getElementById('workout-calories').value, 10) || 400;
+
+          // Append session item
+          const item = document.createElement('div');
+          item.className = 'session-log-item bg-surface-container p-space-md rounded flex items-center justify-between gap-space-md shadow-sm animate-fade-in';
+          item.innerHTML = `
+            <div class="flex items-center gap-space-md">
+              <div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-primary-container">
+                <span class="material-symbols-outlined text-xl">bolt</span>
+              </div>
+              <div class="flex flex-col">
+                <span class="font-title-md text-title-md text-primary">${title}</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant">${category} • Just Now</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-space-lg">
+              <div class="text-right hidden sm:block">
+                <div class="font-label-data text-sm text-primary">${duration} MIN</div>
+                <div class="font-label-sm text-[10px] text-on-surface-variant uppercase">${cals} KCAL</div>
+              </div>
+              <button type="button" class="btn-delete-session text-on-surface-variant hover:text-error transition-colors p-1" title="Delete record">
+                <span class="material-symbols-outlined text-lg">delete</span>
+              </button>
+            </div>
+          `;
+
+          // Add delete listener to new item
+          item.querySelector('.btn-delete-session').addEventListener('click', () => {
+            item.remove();
+            sessionCount = Math.max(0, sessionCount - 1);
+            totalMins = Math.max(0, totalMins - duration);
+            totalCals = Math.max(0, totalCals - cals);
+            if (completedCountEl) completedCountEl.textContent = sessionCount;
+            if (loadTimeEl) loadTimeEl.innerHTML = `${totalMins} <span class="text-sm font-normal">MIN</span>`;
+            if (caloriesBurnedEl) caloriesBurnedEl.textContent = totalCals.toLocaleString();
+          });
+
+          sessionsFeed.prepend(item);
+
+          // Update Stats
+          sessionCount += 1;
+          totalMins += duration;
+          totalCals += cals;
+          if (completedCountEl) completedCountEl.textContent = sessionCount;
+          if (loadTimeEl) loadTimeEl.innerHTML = `${totalMins} <span class="text-sm font-normal">MIN</span>`;
+          if (caloriesBurnedEl) caloriesBurnedEl.textContent = totalCals.toLocaleString();
+
+          trackerForm.reset();
+        });
+
+        // Existing delete buttons
+        document.querySelectorAll('.btn-delete-session').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const row = btn.closest('.session-log-item');
+            if (row) {
+              row.remove();
+              sessionCount = Math.max(0, sessionCount - 1);
+              if (completedCountEl) completedCountEl.textContent = sessionCount;
+            }
+          });
+        });
+      }
+
+      // 5. Membership Billing Toggle (Monthly / Annual)
+      const btnMonthly = document.getElementById('billing-monthly');
+      const btnAnnual = document.getElementById('billing-annual');
+      const prices = document.querySelectorAll('.price-display');
+
+      if (btnMonthly && btnAnnual) {
+        btnMonthly.addEventListener('click', () => {
+          btnMonthly.className = 'px-space-md py-1.5 rounded font-label-data text-xs uppercase bg-primary-container text-on-primary-container transition-all';
+          btnAnnual.className = 'px-space-md py-1.5 rounded font-label-data text-xs uppercase text-on-surface-variant hover:text-primary transition-all flex items-center gap-1';
+          prices.forEach(p => {
+            p.textContent = '$' + p.getAttribute('data-monthly');
+          });
+        });
+
+        btnAnnual.addEventListener('click', () => {
+          btnAnnual.className = 'px-space-md py-1.5 rounded font-label-data text-xs uppercase bg-primary-container text-on-primary-container transition-all flex items-center gap-1';
+          btnMonthly.className = 'px-space-md py-1.5 rounded font-label-data text-xs uppercase text-on-surface-variant hover:text-primary transition-all';
+          prices.forEach(p => {
+            p.textContent = '$' + p.getAttribute('data-annual');
+          });
+        });
+      }
+
+      // 6. Contact Form feedback
+      const contactForm = document.getElementById('contact-intake-form');
+      const contactSuccess = document.getElementById('contact-success-msg');
+      if (contactForm && contactSuccess) {
+        contactForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          contactSuccess.classList.remove('hidden');
+          contactForm.reset();
+        });
+      }
+
+      // Initialize initial calculation
+      updateBmiTelemetry();
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-xl"><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm uppercase text-primary">FITZONE</span></div><p class="font-body-md text-body-md text-on-surface-variant">High-octane performance, elite athletic precision, and digital intensity. Elevate your limits with data-driven training.</p></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-lg text-title-lg uppercase text-on-surface">Quick Links</h3><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-primary-container cursor-pointer transition-colors">Workout Programs</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-primary-container cursor-pointer transition-colors">Elite Trainers</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-primary-container cursor-pointer transition-colors">BMI Calculator</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-primary-container cursor-pointer transition-colors">Membership Tiers</li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-lg text-title-lg uppercase text-on-surface">Working Hours</h3><div class="flex flex-col gap-space-xs font-label-data text-label-data text-on-surface-variant"><div><span class="text-on-surface">MON - FRI:</span> 05:00 - 23:00</div><div><span class="text-on-surface">SATURDAY:</span> 06:00 - 22:00</div><div><span class="text-on-surface">SUNDAY:</span> 07:00 - 20:00</div><div class="text-primary-container">24/7 ACCESS FOR VIP PASS</div></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-lg text-title-lg uppercase text-on-surface">Newsletter</h3><p class="font-body-md text-body-md text-on-surface-variant">Receive exclusive training drops and nutrition intel.</p><div class="flex gap-space-xs"><input class="bg-surface-container-high px-space-sm py-space-xs rounded font-body-sm text-body-sm text-on-surface outline-none focus:ring-1 focus:ring-primary-container flex-1" placeholder="athlete@fitzone.com" type="email"/><button class="bg-primary-container text-on-primary-container px-space-md py-space-xs rounded font-title-md text-title-md uppercase" type="button">Go</button></div></div></div><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2024 FitZone Performance Athletics. All rights reserved.</p><div class="flex items-center gap-space-md font-label-sm text-label-sm text-on-surface-variant"><a class="hover:text-primary-container transition-colors" href="#">PRIVACY PROTOCOL</a><a class="hover:text-primary-container transition-colors" href="#">TERMS OF SERVICE</a><a class="hover:text-primary-container transition-colors" href="#">TELEMETRY</a></div></div></footer></body></html>
